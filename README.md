@@ -16,7 +16,7 @@ The project includes:
 - A CPU emulator with a fetch–decode–execute cycle  
 - A custom assembler to convert assembly code into machine instructions  
 - A memory subsystem with a defined memory layout and memory-mapped I/O  
-- Example assembly programs demonstrating CPU functionality : Hello World and Fibonacci Sequence
+- Example assembly programs demonstrating CPU functionality: Hello World and Fibonacci Sequence
 
   ---
 
@@ -94,6 +94,7 @@ Address (hex, 64 KiB total)
 - DATA_START = 0x1000
 - STACK_START = 0xFF00
 - IO_START = 0xFF00 (memory-mapped output register)
+
 Writing a byte/word to the MMIO address (0xFF00) prints a character (used by Hello World).
 
 ## Emulator Components
