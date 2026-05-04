@@ -2,7 +2,7 @@
 
 **Course:** CMPE 220 – System Software  
 **Instructor:** Prof. Ishie Eshwar  
-**Semester:** Spring 2026 
+**Semester:** Spring 2026
 **Team:** 16
 
 ---
