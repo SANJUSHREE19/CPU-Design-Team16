@@ -74,6 +74,7 @@ All registers are 16-bit.
 
 The CPU uses a 16-bit address space (64 KiB) divided into code, data, stack, and MMIO regions.
 
+```text
 Address (hex, 64 KiB total)
 
 0xFFFF  +------------------------------------+
@@ -87,6 +88,7 @@ Address (hex, 64 KiB total)
 0x0000  +------------------------------------+  ← CODE_START
         |                CODE                |  Program instructions (~4 KiB)
         +------------------------------------+
+```
 
 - CODE_START = 0x0000
 - DATA_START = 0x1000
